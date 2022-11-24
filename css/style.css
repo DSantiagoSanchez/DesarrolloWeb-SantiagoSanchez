@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color:burlywood;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    transition: all 1s ease;
+}
+
+nav a:hover{
+    color: white;
+    font-size: 20px;
+}
+
+
+footer{
+    display: flex;
+    height: 70px;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer nav{
+    margin: 0px auto;
+}
+
+
+
+
+
+
+.mainHome{
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.divTituloHome{
+    width: 50%;
+    
+}
+
+.tituloHome{
+    font-size: 200%;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.tit1{
+    margin-top: 13%;
+}
+
+.tit2{
+    margin-top: 2%;
+}
+
+
+.InfoHome{
+    
+    margin: 5%;
+    font-size: 150%;
+}
+
+.InfoHome p{
+    margin-bottom: 1.5%;
+    text-align: justify;
+}
+
+.proyectosHome{
+    display: flex;
+    width: 50%;
+    flex-direction:column;
+    
+
+}
+
+.proyectosHome h2{
+    height: 2%;
+    font-size: 200%;
+    margin: 0px auto;
+    margin-top: 20%;
+}
+
+.proyectosHome h3{
+    height: 3%;
+    font-size: 200%;
+    margin: 0px auto;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+.proyectosHome img{
+    height: 40%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.proyectosHome p{
+    font-size: 125%;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+
+.mainDatosPersonales{
+    display: flex;
+    min-height: 100vh;
+}
+
+.mainDatosPersonales div{
+    width: 100%;
+}
+
+
+.mainDatosPersonales h2{
+    font-size: 200%;
+    width: 23%;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.FormInfoPers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FormInfoPers p{
+    border: solid 1px orange;
+    width: 40%;
+    margin: 0PX auto;
+    margin-top: 4%;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+.mainContacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 2000px;
+    height: 750px;
+    justify-content: space-evenly;
+}
+
+.mainContacto img{
+    width: 120px;
+}
+
+.mainContacto div{
+    margin: 20px;
+    margin-top: 300px;
+}
