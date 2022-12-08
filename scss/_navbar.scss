@@ -1,0 +1,14 @@
+/*--NavBar--*/
+.navbar-main{
+
+    .navbar-brand{
+        img{
+            width: 55px;
+        }
+    }
+
+    .active{
+        text-decoration: underline wavy purple;
+        text-underline-offset: 9px;
+    }
+}

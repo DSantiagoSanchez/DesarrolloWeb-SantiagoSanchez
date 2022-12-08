@@ -1,0 +1,124 @@
+/*--Responsive--*/
+@media screen and (max-width: 1000px){
+    #secDatos{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        margin-top: 4rem;
+        .header-main {
+            height: initial;
+        }
+
+        #secDatos{
+            margin-top: 25%;
+        }
+    }
+
+    .bodyProyecto{
+        .containerProyecto{
+            width: 100%;
+            height: 100%;
+            max-width: 800px;
+            max-height: 300px;
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            flex-direction: column;
+            margin-bottom: 200px;
+            .cardsProyecto{
+        
+                position: relative;
+                height: 100px;
+                width: 80%;
+                margin-bottom: 20px;
+                perspective: 300px;
+                transform-style: preserve-3d;
+                label{
+                    position: absolute;
+                    width: 100%;
+                    height: auto;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    transition: transform 0.55s ease;
+                    .cardProyecto{
+                        position: relative;
+                        height: 100%;
+                        background-color: #727ab8;
+                        border-radius: 10px;
+                        padding: 30px 35px;
+                        .imageProyecto{
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                border-radius: 5px;
+                                box-shadow: 15px 15px 40px rgba(0, 0, 0, 0);
+                                margin-top: 2px;
+                                width: 100%;
+                                height: 200px;
+                                object-fit: cover;
+                                transition: all .7s;
+                            }
+                            img:hover{
+                                transform: scale(1.05) ;
+                            }
+                        }
+                        .infosProyecto{
+                            display: block;
+                            text-align: justify;
+                            padding-top: 0px;
+                            span{
+                                display: block;
+                            }
+                            .nombreProyecto{
+                                font-size: 20px;
+                                color: var(--current-color1);
+                                letter-spacing: 2px;
+                                margin-bottom: 10px;
+                                transition: all .6s ease;
+                            }
+                            .txtProyecto{
+                                font-size: 8px;
+                                color: #ECEAED;
+                            
+                            }
+                        }
+    
+                    }
+                }
+            }
+            #s1:checked~.cardsProyecto #slide3,
+            #s2:checked~.cardsProyecto #slide1,
+            #s3:checked~.cardsProyecto #slide2{
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 45%);
+            transform: translate3d(0, -30%, -120px);
+            --current-color1: #ECEAED;
+            --current-color2: #404457;
+            }
+    
+            #s1:checked~.cardsProyecto #slide1,
+            #s2:checked~.cardsProyecto #slide2,
+            #s3:checked~.cardsProyecto #slide3 {
+            box-shadow: 0 15px 250px 0 rgba(0, 0, 0, 50%);
+            transform: translate3d(0, 0, 0);
+            --current-color1: #ceb95e;
+            --current-color2: #ECEAED;
+            }
+    
+            #s1:checked~.cardsProyecto #slide2,
+            #s2:checked~.cardsProyecto #slide3,
+            #s3:checked~.cardsProyecto #slide1{
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 45%);
+            transform: translate3d(0, 60%, -120px);
+            --current-color1: #ECEAED;
+            --current-color2: #404457;
+            }
+        }
+    }
+}
