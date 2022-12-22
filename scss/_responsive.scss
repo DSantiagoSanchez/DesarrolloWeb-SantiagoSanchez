@@ -29,12 +29,12 @@
             align-items: center;
             transform-style: preserve-3d;
             flex-direction: column;
-            margin-bottom: 200px;
+            margin-bottom: 350px;
             .cardsProyecto{
         
                 position: relative;
                 height: 100px;
-                width: 80%;
+                width: 100%;
                 margin-bottom: 20px;
                 perspective: 300px;
                 transform-style: preserve-3d;
@@ -77,14 +77,14 @@
                                 display: block;
                             }
                             .nombreProyecto{
-                                font-size: 20px;
+                                font-size: 25px;
                                 color: var(--current-color1);
                                 letter-spacing: 2px;
                                 margin-bottom: 10px;
                                 transition: all .6s ease;
                             }
                             .txtProyecto{
-                                font-size: 8px;
+                                font-size: 12px;
                                 color: #ECEAED;
                             
                             }

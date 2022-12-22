@@ -1,6 +1,5 @@
 /*--NavBar--*/
 .navbar-main{
-
     .navbar-brand{
         img{
             width: 55px;
@@ -8,7 +7,7 @@
     }
 
     .active{
-        text-decoration: underline wavy purple;
+        text-decoration: underline wavy #727ab8;
         text-underline-offset: 9px;
     }
 }
